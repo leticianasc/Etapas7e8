@@ -1,3 +1,6 @@
+/* Leticia Nascimento de Oliveira e Brunca Caroliny Custodio da Silva - Subturma A
+*/
+
 var x = 27;
 
 
@@ -189,7 +192,7 @@ text('Vidas: '+vidas, 20, 30);
 text('Pontos: '+pontos, 200, 30);
   
 
-text('Nível: '+nivel, 420, 30);
+text('NÃ­vel: '+nivel, 420, 30);
  
  
 ellipse(xo,yo, 50, 50);
