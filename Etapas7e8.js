@@ -37,22 +37,22 @@ var xo = 100;
 var yo = 120;
 
 
-var vx = []
+var vx = [];
 
 
-var vy = []
+var vy = [];
 
 
-var tam = 5
-
-;
-var vt = []
+var tam = 5;
 
 
-var bar = 1000
+var vt = [];
 
 
-;
+var bar = 1000;
+
+
+
 function setup() {
   
 
@@ -61,11 +61,11 @@ createCanvas(500, 500);
 
 for(var i = 0; i < tam; i++){
 
-vx[i] = random(0,400)
+vx[i] = random(0,400);
 
-vy[i] = random(0,400)
+vy[i] = random(0,400);
 
-vt[i] = random(4, 50)
+vt[i] = random(4, 50);
 
 }
 
@@ -77,12 +77,12 @@ function draw() {
 
 background(270,66,60);
 
-pontos = pontos + 10
-;
+pontos = pontos + 10;
+
 if (pontos > bar) {
   
-nivel++
-  bar = bar + 1000
+  nivel++;
+  bar = bar + 1000;
 ;
 }
 
